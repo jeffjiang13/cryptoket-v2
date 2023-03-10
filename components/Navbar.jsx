@@ -37,7 +37,7 @@ const MenuItems = ({ isMobile, active, setActive, setIsOpen }) => {
           className={`flex flex-row items-center font-poppins font-semibold text-base dark:hover:text-white hover:text-nft-dark mx-3
           ${active === item
             ? 'dark:text-white text-nft-black-1'
-            : 'dark:text-nft-gray-3 text-nft-gray-2'} 
+            : 'dark:text-nft-gray-3 text-nft-gray-2'}
           ${isMobile && 'my-5 text-xl'}`}
         >
           <Link href={generateLink(i)}>{item}</Link>
@@ -119,7 +119,7 @@ const Navbar = () => {
       <div className="flex flex-1 flex-row justify-start">
         <Link href="/">
           <div className="flexCenter md:hidden cursor-pointer" onClick={() => setActive('Explore NFTs')}>
-            <Image src={logo02} objectFit="contain" width={32} height={32} alt="logo" />
+            <Image src={logo02} objectFit="contain" width={42} height={42} alt="logo" />
             <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">CryptoKet</p>
           </div>
         </Link>
@@ -131,7 +131,7 @@ const Navbar = () => {
               setIsOpen(false);
             }}
           >
-            <Image src={logo02} objectFit="contain" width={32} height={32} alt="logo" />
+            <Image src={logo02} objectFit="contain" width={42} height={42} alt="logo" />
           </div>
         </Link>
       </div>
