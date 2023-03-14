@@ -1,6 +1,15 @@
-To try out, click here
-<a href="cryptoket-v2.vercel.app" > DEMO
+<div id="top"></div>
 
+
+<br />
+<div align="center">
+  <a href="https://github.com/jeffjiang13/movie-app">
+    <img src="assets/logo.png" alt="cryptoket" width="200" height="50">
+  </a>
+
+</div>
+👋 To try out click here
+<a href="cryptoket-v2.vercel.app" > DEMO
 
 ## Cryptoket
 CryptoKet is made using the immense power of Solidity and Next.js. This project combines futuristic elements of Web3 blockchain development and the popular culture wave of non-fungible tokens (NFT).
