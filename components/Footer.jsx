@@ -51,7 +51,7 @@ const Footer = () => {
 
       <div className="flexCenter w-full mt-5 border-t dark:border-nft-black-1 border-nft-gray-1 sm:px-4 px-16">
         <div className="flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7">
-          <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base"> CryptoKet, Inc. All Right Reserved.</p>
+          <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base"> CryptoKet, Inc. Created by Jeff Jiang All Right Reserved.</p>
           <div className="flex flex-row sm:mt-4">
             {[instagram, twitter, telegram, discord].map((image, index) => (
               <div className="mx-2 cursor-pointer" key={index}>
